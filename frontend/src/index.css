@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* The official EcoLoop Africa brand colors */
+  --color-eco-green: #2E7D32;         /* Primary green – eco, bold, confident */
+  --color-eco-green-dark: #1B5E20;    /* Darker green – for hover states or footers */
+  --color-eco-green-light: #A5D6A7;   /* Light green – accents, highlights */
+  --color-leaf-green: #66BB6A;        /* Secondary green – buttons or icons */
+  --color-white: #FFFFFF;             /* Background and contrast color */
+  --color-ash-gray: #E0E0E0;          /* Neutral gray – borders, dividers */
+  --color-slate-900: #1E293B;         /* For dark text on light backgrounds */
+  --color-slate-600: #475569;         /* For subtitles and body text */
+  --color-slate-50: #F8FAFC;          /* For soft light backgrounds */
+
+  /* Font */
+  --font-sans: "Inter", system-ui, sans-serif;
+}
