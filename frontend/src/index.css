@@ -11,6 +11,8 @@
   --color-slate-900: #1E293B;         /* For dark text on light backgrounds */
   --color-slate-600: #475569;         /* For subtitles and body text */
   --color-slate-50: #F8FAFC;          /* For soft light backgrounds */
+  --color-slate-50: #F8FAFC;
+  --color-eco-blue: #3B82F6;
 
   /* Font */
   --font-sans: "Inter", system-ui, sans-serif;

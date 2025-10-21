@@ -1,13 +1,18 @@
-import React from 'react';
+import { Outlet, ScrollRestoration } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-green-600">
-        Welcome to EcoLoop Africa!
-      </h1>
-    </div>
-  );
+    <>
+    <ScrollRestoration />
+     <Navbar />
+      <main>
+        <Outlet />
+      </main>
+      <Footer /> 
+    </>
+  )
 }
 
 export default App;
