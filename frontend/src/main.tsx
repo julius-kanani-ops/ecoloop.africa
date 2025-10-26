@@ -18,6 +18,7 @@ import HowItWorks from "./components/home/HowItWorks.tsx";
 import Signup from "./pages/auth/Signup.tsx";
 import Login from "./pages/auth/Login.tsx";
 import Feed from "./pages/content/Feed.tsx";
+import JoinPage from "./pages/auth/JoinPage.tsx";
 
 // Router configuration
 const router = createBrowserRouter([
@@ -26,42 +27,16 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <NotFoundPage />,
     children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: "about",
-        element: <About />,
-      },
-      {
-        path: "testimonials",
-        element: <Testimonials />,
-      },
-      {
-        path: "how-it-works",
-        element: <HowItWorks />
-      },
-      {
-        path:"contact",
-        element: <ContactPage />
-      },
-      {
-        path: "signup",
-        element: <Signup />
-      },
-      {
-        path: "login",
-        element: <Login />
-      },
-      {
-        path: "feed",
-        element: <Feed />
-      },
-      {
-        path: "*", // Catch-all for unknown routes
-        element: <NotFoundPage />,
-      },
+      { index: true, element: <HomePage />, },
+      { path: "about", element: <About />, },
+      { path: "testimonials", element: <Testimonials />,   },
+      { path: "how-it-works", element: <HowItWorks /> },
+      { path:"contact", element: <ContactPage /> },
+      { path: "signup", element: <Signup /> },
+      { path: "login", element: <Login /> },
+      { path: "feed", element: <Feed /> },
+      { path: "*", element: <NotFoundPage />, },
+      { path: "join", element: <JoinPage />}
     ],
   },
 ]);
