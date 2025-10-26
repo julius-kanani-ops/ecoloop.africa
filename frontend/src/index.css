@@ -1,19 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  /* The official EcoLoop Africa brand colors */
+  /* --- EcoLoop Africa Brand Palette --- */
   --color-eco-green: #2E7D32;         /* Primary green – eco, bold, confident */
-  --color-eco-green-dark: #1B5E20;    /* Darker green – for hover states or footers */
+  --color-eco-green-dark: #1B5E20;    /* Dark green – hover states, footer */
   --color-eco-green-light: #A5D6A7;   /* Light green – accents, highlights */
-  --color-leaf-green: #66BB6A;        /* Secondary green – buttons or icons */
-  --color-white: #FFFFFF;             /* Background and contrast color */
+  --color-leaf-green: #66BB6A;        /* Fresh green – icons, secondary accents */
+  --color-eco-blue: #3B82F6;          /* Blue – trust, stability, balance */
+  --color-eco-blue-dark: #1E40AF;     /* Deep blue – hover states */
+  --color-eco-blue-light: #93C5FD;    /* Light blue – backgrounds, gradients */
+  --color-gold: #FFD700;              /* Gold – premium accent */
   --color-ash-gray: #E0E0E0;          /* Neutral gray – borders, dividers */
-  --color-slate-900: #1E293B;         /* For dark text on light backgrounds */
-  --color-slate-600: #475569;         /* For subtitles and body text */
-  --color-slate-50: #F8FAFC;          /* For soft light backgrounds */
-  --color-slate-50: #F8FAFC;
-  --color-eco-blue: #3B82F6;
+  --color-slate-900: #1E293B;         /* Deep text */
+  --color-slate-600: #475569;         /* Secondary text */
+  --color-slate-50: #F8FAFC;          /* Background */
+  --color-white: #FFFFFF;             /* Clean base */
 
-  /* Font */
+  /* --- Fonts --- */
   --font-sans: "Inter", system-ui, sans-serif;
+
+  /* --- Shadows for depth --- */
+  --shadow-soft: 0 4px 8px rgba(0, 0, 0, 0.05);
+  --shadow-strong: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
