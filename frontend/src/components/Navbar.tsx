@@ -25,6 +25,14 @@ const Navbar: React.FC = () => {
               {link.label}
             </Link>
           ))}
+
+          {/* CTA Button */}
+          <Link
+            to="/join"
+            className="ml-4 bg-eco-green text-white text-sm font-medium px-4 py-2 rounded-full shadow hover:bg-eco-green-dark transition-all duration-300"
+          >
+            Join the Movement
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -34,7 +42,7 @@ const Navbar: React.FC = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="h-6 w-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
